@@ -148,6 +148,9 @@ public:
             
             sf::FloatRect a = getObjRect(obj[i]);
             
+            /*
+            нужно убрать из кода куски с copy&past'ом ... вынесите в отдельные методы их, например.
+            */
             if (a.intersects(rect))
             {
                 
